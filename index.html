@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Maaz Bashir • Portfolio</title>
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="top">
+    <div class="container header-wrap">
+      <a href="#top" class="brand" aria-label="Home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Muhammad Maaz Bashir</span>
+      </a>
+      <nav aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-label="Open menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="btn btn--sm">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero / Landing ===== -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1 class="h1">
+          Building clean, responsive experiences for the web.
+        </h1>
+        <p class="lead">
+          Front-end developer focused on elegant UI, accessibility, and performance.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Let’s Talk</a>
+        </div>
+      </div>
+      <div class="hero__card" aria-hidden="true">
+        <div class="hero__badge">HTML • CSS • JS</div>
+        <div class="hero__mesh"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div>
+        <h2 class="h2">About Me</h2>
+        <p>
+          I’m a web developer who enjoys crafting modern, accessible interfaces with clean, maintainable code.
+          My toolkit includes <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>, along with version control
+          and UI design fundamentals. I focus on readable typography, thoughtful spacing, and responsive layouts
+          that feel great on every device.
+        </p>
+        <ul class="chips" aria-label="Key skills">
+          <li class="chip">Semantic HTML</li>
+          <li class="chip">Modern CSS (Grid/Flex)</li>
+          <li class="chip">Responsive Design</li>
+          <li class="chip">Accessibility</li>
+          <li class="chip">Git & VS Code</li>
+          <li class="chip">Figma (UI basics)</li>
+        </ul>
+      </div>
+      <aside class="about-card">
+        <div class="about-card__meta">
+          <span class="dot"></span>
+          <span>Karachi, Pakistan</span>
+        </div>
+        <div class="about-card__body">
+          <p class="muted">Available for internships & freelance work.</p>
+          <a class="link" href="mailto:maaz10415@gmail.com" rel="noopener">maaz10415@gmail.com</a>
+          <a class="link" href="tel:+923062382500" rel="noopener">+92 306 2382500</a>
+          <a class="link" href="https://www.linkedin.com/in/muhammad-maaz-566665327" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== Education ===== -->
+  <section id="education" class="section section--tint">
+    <div class="container">
+      <h2 class="h2">Education</h2>
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__point"></div>
+          <div class="timeline__content">
+            <h3 class="h3">BS in Computer Science — NUST</h3>
+            <p class="muted">Sep 2025 — Present</p>
+            <p>Core CS coursework with emphasis on programming, problem solving, and software foundations.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__point"></div>
+          <div class="timeline__content">
+            <h3 class="h3">Intermediate (Pre-Engineering) — S.M. Govt. Science College</h3>
+            <p class="muted">2023 — 2025</p>
+            <p>Mathematics, Physics, and Computer Science.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__point"></div>
+          <div class="timeline__content">
+            <h3 class="h3">Karachi Public School</h3>
+            <p class="muted">2021 — 2023</p>
+            <p>Computer Science track with strong fundamentals in logic and programming basics.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Projects / Gallery ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="h2">Projects</h2>
+
+      <div class="grid projects">
+        <!-- Project 1 -->
+        <article class="card project">
+          <div class="project__media">
+            <img src="https://images.unsplash.com/photo-1529101091764-c3526daf38fe?q=80&w=1200&auto=format&fit=crop" alt="Preview of responsive landing page project" />
+            <div class="project__overlay">
+              <a class="btn btn--ghost btn--sm" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Repository</a>
+            </div>
+          </div>
+          <div class="project__body">
+            <h3 class="h3">Responsive Landing Page</h3>
+            <p class="muted">A fast, accessible product landing page with semantic HTML and modern CSS layout.</p>
+            <ul class="tags">
+              <li>HTML</li><li>CSS Grid</li><li>Accessibility</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card project">
+          <div class="project__media">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop" alt="Preview of portfolio website project" />
+            <div class="project__overlay">
+              <a class="btn btn--ghost btn--sm" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Repository</a>
+            </div>
+          </div>
+          <div class="project__body">
+            <h3 class="h3">Portfolio Website</h3>
+            <p class="muted">A polished personal site with sticky navigation, smooth scrolling, and elegant typography.</p>
+            <ul class="tags">
+              <li>HTML</li><li>Modern CSS</li><li>Animations</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card project">
+          <div class="project__media">
+            <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?q=80&w=1200&auto=format&fit=crop" alt="Preview of minimal blog UI project" />
+            <div class="project__overlay">
+              <a class="btn btn--ghost btn--sm" href="#" target="_blank" rel="noopener">Live Demo</a>
+              <a class="btn btn--sm" href="#" target="_blank" rel="noopener">Repository</a>
+            </div>
+          </div>
+          <div class="project__body">
+            <h3 class="h3">Minimal Blog UI</h3>
+            <p class="muted">A content-first blog template featuring responsive typography and dark-mode friendly colors.</p>
+            <ul class="tags">
+              <li>HTML</li><li>Flexbox</li><li>Responsive</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section section--tint">
+    <div class="container two-col">
+      <div>
+        <h2 class="h2">Contact</h2>
+        <p class="muted">Have a project in mind or want to collaborate? Send a message—I'll reply soon.</p>
+        <form class="form" action="#" method="post" novalidate>
+          <div class="form__field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" inputmode="text" autocomplete="name" placeholder="Your full name" required pattern="^[A-Za-zÀ-ÿ' -]{2,}$" />
+            <small class="hint">Enter 2+ letters; letters, spaces, apostrophes allowed.</small>
+          </div>
+          <div class="form__field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required />
+            <small class="hint">We’ll only use this to reply.</small>
+          </div>
+          <div class="form__field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can I help?" required minlength="10"></textarea>
+            <small class="hint">Please include a few details (10+ characters).</small>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <aside class="contact-card">
+        <h3 class="h4">Find me online</h3>
+        <ul class="social">
+          <li>
+            <a href="https://www.linkedin.com/in/muhammad-maaz-566665327" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <!-- LinkedIn SVG -->
+              <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 2.5 6a2.5 2.5 0 0 1 2.48-2.5zM3 8h4v13H3zM9 8h3.8v1.8h.05c.53-1 1.84-2.05 3.78-2.05 4.04 0 4.79 2.66 4.79 6.12V21H17v-5.7c0-1.36-.02-3.11-1.9-3.11-1.9 0-2.19 1.48-2.19 3v5.81H9z"/></svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:maaz10415@gmail.com" aria-label="Email">
+              <!-- Mail SVG -->
+              <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5L4 8V6l8 5 8-5z"/></svg>
+              <span>Email</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+923062382500" aria-label="Phone">
+              <!-- Phone SVG -->
+              <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M6.62 10.79a15.053 15.053 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.11.37 2.3.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.28.2 2.47.57 3.58a1 1 0 0 1-.24 1.01l-2.21 2.2z"/></svg>
+              <span>Phone</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <p class="muted">© <span id="year"></span> Muhammad Maaz Bashir. All rights reserved.</p>
+      <a href="#top" class="to-top" aria-label="Back to top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <!-- Minimal no-JS enhancement for current year using HTML only: update manually if desired -->
+  <!-- If you prefer, replace the year with a static value in the markup -->
+
+  <!-- Mobile menu (CSS-powered) -->
+  <input type="checkbox" id="nav-check" class="nav-check" aria-hidden="true" />
+</body>
+</html>
